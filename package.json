@@ -1,0 +1,13 @@
+{
+  "name": "libvirt-rproxy",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "http-proxy": "*",
+    "optimist": "*"
+  },
+  "repository": "",
+  "author": "Daniel Tralamazza <tralamazza@gmail.com>",
+  "license": "MIT"
+}
