@@ -5,7 +5,7 @@
 
 #### usage with forever and libvirt hook system
 
-Example of a ```/etc/libvirt/hooks/lxc```:
+Example of a ```/etc/libvirt/hooks/lxc``` (see [libvirt hooks](http://libvirt.org/hooks.html))
 
     #!/usr/bin/bash
     sudo -H forever restart <path to this project>
