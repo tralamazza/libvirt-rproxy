@@ -2,7 +2,7 @@
 
 This little nodejs app will forward HTTP connections to your local libvirt containers/guests.
 The route table is constructed by simply concatenating the local guest name to the host name. e.g.
-host: ```myserver.local``` guests: ```foo, bar```, resulting routing table:
+host: ```myserver.local```, guests: ```foo``` & ```bar```, resulting routing table:
 
     {
       "foo.myserver.local": "foo",
@@ -14,7 +14,7 @@ host: ```myserver.local``` guests: ```foo, bar```, resulting routing table:
 
     node server.js
 
-Options:
+*Options*:
 
 * ```-h```        route host (```require('os').hostname```)
 * ```-p```        listen port (80)
