@@ -7,5 +7,5 @@
 
 Example of a ```/etc/libvirt/hooks/lxc``` (see [libvirt hooks](http://libvirt.org/hooks.html))
 
-    #!/usr/bin/bash
+    #!/bin/bash
     sudo -H forever restart <path to this project>
